@@ -24,6 +24,11 @@ public class LandmarkAdapter extends RecyclerView.Adapter<LandmarkAdapter.Landma
         return 0;
     }
 
+    @Override
+    public int getItemCount() {
+        return 0;
+    }
+
     public class LandmarkHolder extends RecyclerView.ViewHolder {
 
         public LandmarkHolder(@NonNull View itemView) {
